@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: darkred;
+      }
+
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+      }
+
+      a::before {
+        content: "➡︎ ";
+      }
+
+      a::after {
+        content: " ⬅︎";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+    <ul>
+      <li><a href="https://github.com/Ja1Campos" target="_blank">GitHub</a></li>
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UCv1JQc1kInJx9XfJk-lJuNA"
+          target="_blank"
+          >Canal Do Youtube</a
+        >
+      </li>
+      <li>
+        <a href="https://ja1campos.github.io/qr-code/html/" target="_blank"
+          >Front-End Mentor - Challange QR-Code</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
