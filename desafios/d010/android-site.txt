@@ -1,3 +1,5 @@
+[SITE]
+
 Curiosidades de Tecnologia
 
 Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
@@ -60,4 +62,5 @@ Acesse aqui o site Android History para conhecer a sequência das versões "adoc
 
 Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
          
-Site criado por Gustavo Guanabara para o CursoemVideo.
+Site criado por João Guilherme para o CursoemVideo.
+[/SITE]
