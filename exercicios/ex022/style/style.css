@@ -18,5 +18,5 @@ div#d2 {
   background-image: linear-gradient(to bottom, yellow, red);
 }
 div#d3 {
-  background-image: url(./imgs/pattern003.png);
+  background-image: url(../imgs/pattern003.png);
 }
