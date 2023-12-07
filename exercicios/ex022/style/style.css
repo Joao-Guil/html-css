@@ -9,7 +9,6 @@ div.square {
   height: 300px;
   background-color: lightgray;
   border-radius: 10px;
-  text-align: center;
 }
 
 div#d1 {
