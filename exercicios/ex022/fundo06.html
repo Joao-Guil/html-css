@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fundo fixo de tela</title>
+    <style>
+      body {
+        height: 100vh;
+        /*background-color: black;
+          background-image: url('imagens/wallpaper002.jpg');
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;*/
+
+        /* Shorthand - background 
+              color > image > position > repeat > [size] > attachment
+          */
+
+        background: black url("./imgs/wallpaper002.jpg") center center
+          no-repeat fixed;
+        background-size: cover;
+      }
+
+      main {
+        background-color: white;
+        max-width: 425px;
+        padding: 12px;
+        margin: auto;
+        border: 1.5px solid darkblue;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Teste de imagem de fundo</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
+        nobis quis non eos deleniti, culpa voluptates soluta, est numquam fugiat
+        possimus minima vitae commodi aliquam porro voluptatibus cumque,
+        deserunt officia. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Eius nesciunt maxime totam laboriosam nobis tenetur perspiciatis
+        ab numquam mollitia eos, molestias repellat asperiores rerum voluptates
+        autem. Dicta placeat sequi tenetur! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Exercitationem quos omnis libero quaerat
+        nostrum possimus, expedita nam voluptate modi nisi quibusdam tempora sed
+        nihil adipisci! Tempora iure voluptas dolorem sint.
+      </p>
+    </main>
+  </body>
+</html>
