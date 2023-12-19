@@ -16,6 +16,7 @@
       table {
         border-collapse: collapse;
         width: 500px;
+        position: relative;
       }
 
       caption {
@@ -23,6 +24,12 @@
         background-color: lightgray;
         font-weight: bold;
         font-size: 1.5em;
+      }
+
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: #383838;
       }
 
       thead,
@@ -55,7 +62,7 @@
       <thead>
         <tr>
           <th scope="col">Estado</th>
-          <th scope="col" style="width: 89px;">População</th>
+          <th scope="col" style="width: 89px">População</th>
         </tr>
       </thead>
       <tbody>
