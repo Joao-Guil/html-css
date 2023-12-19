@@ -85,8 +85,7 @@ section#img02{
 
 section.image > p {
   display: inline-block;
-  min-width: 400px;
-  max-width: 605px;
+  max-width: 400px;
   background-color: rgba(0, 0, 0, 0.322);
   text-shadow: 1px 1px 0 black;
 }
