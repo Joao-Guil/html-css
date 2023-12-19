@@ -11,6 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 1em;
 }
 
 html,
@@ -30,7 +31,7 @@ header > h1 {
   font-family: var(--font02);
   padding-top: 50px;
   font-variant: small-caps;
-  font-size: 4em;
+  font-size: 10vw;
 }
 
 header > p {
@@ -53,6 +54,7 @@ section {
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 33px;
+  font-size: 3.5vw;
 }
 
 section.normal {
@@ -65,6 +67,7 @@ section.image {
 }
 
 section.image > p {
+  display: inline-block;
   width: 400px;
   background-color: rgba(0, 0, 0, 0.267);
 }
