@@ -22,5 +22,5 @@ article {
 }
 
 article::after {
-    content: 'Esse artigo foi impresso através do site ';
+    content: 'Esse artigo foi impresso através do site https://joao-guil.github.io/html-css//exercicios/ex026/mq001/';
 }
