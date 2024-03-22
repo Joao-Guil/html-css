@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/media-querry.css" />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <h1>Meu Site</h1>
       <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -64,6 +64,14 @@
     <script>
       function clickMenu() {
         if (items.style.display == "block") {
+          items.style.display = "none";
+        } else {
+          items.style.display = "block";
+        }
+      }
+
+      function mudouTamanho() {
+        if (innerWidth >= 768) {
           items.style.display = "none";
         } else {
           items.style.display = "block";
