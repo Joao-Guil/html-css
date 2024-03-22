@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@media print {
+  * {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  body {
+    background-image: url(../imgs/back-print.jpg);
+  }
+
+  main {
+    border: 2px solid black;
+  }
+
+  main h1 {
+    text-shadow: none;
+    color: black;
+  }
+
+  #tablet {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+  #tv {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+  #impressora {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-image: url(../imgs/back-tablet.jpg);
+  }
+  #tablet {
+    display: block;
+  }
+  #phone {
+    display: none;
+  }
+  #tv {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+  #impressora {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-image: url(../imgs/back-pc.jpg);
+  }
+  #tablet {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+  #tv {
+    display: none;
+  }
+  #pc {
+    display: block;
+  }
+  #impressora {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: url(../imgs/back-tv.jpg);
+  }
+  #tablet {
+    display: none;
+  }
+  #phone {
+    display: none;
+  }
+  #tv {
+    display: block;
+  }
+  #pc {
+    display: none;
+  }
+  #impressora {
+    display: none;
+  }
+}
